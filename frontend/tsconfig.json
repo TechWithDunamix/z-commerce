@@ -1,0 +1,12 @@
+{
+	"extends": "@zayne-labs/tsconfig/bundler/vite",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+
+	"exclude": ["dist", "node_modules"],
+	"include": ["src/**/*.tsx", "src/**/*.ts", "./*.ts", "vite.config.ts"]
+}

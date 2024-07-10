@@ -1,0 +1,5 @@
+{
+	"typescript.tsdk": "frontend\\node_modules\\typescript\\lib",
+	"eslint.workingDirectories": ["frontend", "backend"],
+	"cSpell.words": ["shadcn", "sonarjs", "Sonner"]
+}
